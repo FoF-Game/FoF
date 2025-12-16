@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"674a5eb27c8d8111","type":"file","file":"FoF/Карта/Регионы/Регионы.md","x":344,"y":985,"width":400,"height":400},
+		{"id":"f006328f1ad33141","type":"text","text":"# Фрагменты разлома \n Fragments of the fault (FoF)","x":-160,"y":-37,"width":339,"height":97},
+		{"id":"c91a842ffd61a4f8","type":"file","file":"FoF/Пред история/Пред история.md","x":236,"y":-37,"width":400,"height":400},
+		{"id":"3e31b299b0678111","type":"file","file":"FoF/Карта/Карта(локации).md","x":-960,"y":-160,"width":400,"height":400},
+		{"id":"ed311dcec0123e42","type":"file","file":"FoF/Монстры/Монстрики.md","x":-221,"y":-891,"width":400,"height":400},
+		{"id":"918dbf6223acda8c","x":1011,"y":81,"width":250,"height":60,"type":"text","text":"Сюжет"},
+		{"id":"9309e10c39fc2f6f","x":-610,"y":602,"width":400,"height":400,"type":"link","url":"https://inkarnate.com/"}
+	],
+	"edges":[
+		{"id":"725d1fbd4791bf29","fromNode":"f006328f1ad33141","fromSide":"right","toNode":"c91a842ffd61a4f8","toSide":"left"},
+		{"id":"8313824f9e01c5f7","fromNode":"f006328f1ad33141","fromSide":"left","toNode":"3e31b299b0678111","toSide":"right"},
+		{"id":"60a5ac26e3dcc603","fromNode":"f006328f1ad33141","fromSide":"top","toNode":"ed311dcec0123e42","toSide":"bottom"},
+		{"id":"47437e758cd51bf3","fromNode":"f006328f1ad33141","fromSide":"bottom","toNode":"674a5eb27c8d8111","toSide":"top"},
+		{"id":"15db5ff37cf57a3a","fromNode":"c91a842ffd61a4f8","fromSide":"right","toNode":"918dbf6223acda8c","toSide":"left"},
+		{"id":"954da3cc859ab0df","fromNode":"3e31b299b0678111","fromSide":"bottom","toNode":"9309e10c39fc2f6f","toSide":"top"}
+	]
+}
